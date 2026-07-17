@@ -1,9 +1,9 @@
 {"category": "研究動機", "draft": "我們這個研究基本上就是想搞清楚球員的跑位跟球隊贏球到底有沒有關係。", "polished": "本研究旨在探討球員跑位與球隊獲勝之間的關聯性。", "source": "human_polished"}
 {"category": "研究動機", "draft": "現在做運動分析的人越來越多都在用那些 machine learning 的方法啦。", "polished": "近年來，越來越多研究採用機器學習方法進行運動分析。", "source": "human_polished"}
 {"category": "研究動機", "draft": "這篇 paper 主要想解決的問題就是現有的模型沒辦法很好地處理球員之間的互動。", "polished": "本文旨在解決現有模型無法有效處理球員間互動關係的問題。", "source": "human_polished"}
-{"category": "方法段落", "draft": "我們用 GNN 來 model 球員之間的關係，因為球員互動這種東西本來就很像一個 graph。", "polished": "我們採用圖神經網路（GNN）來建模球員間的關係，因為球員間的互動本質上十分契合圖形結構。", "source": "human_polished"}
+{"category": "方法段落", "draft": "我們用 GNN 來 model 球員之間的關係，因為球員互動這種東西本來就很像一個 graph。", "polished": "本研究採用圖神經網路（GNN）來建模球員間的關係，因為球員間的互動本質上十分契合圖形結構。", "source": "human_polished"}
 {"category": "方法段落", "draft": "資料的部分我們是從公開的比賽紀錄那邊抓下來的，大概有五個賽季這麼多。", "polished": "本研究資料源自公開的比賽紀錄，共涵蓋約五個賽季的數據。", "source": "human_polished"}
-{"category": "方法段落", "draft": "我們把每個球員當成一個 node，然後他們之間有傳球的話就連一條 edge。", "polished": "我們將每位球員視為節點，並在有傳球關係的球員之間建立邊。", "source": "human_polished"}
+{"category": "方法段落", "draft": "我們把每個球員當成一個 node，然後他們之間有傳球的話就連一條 edge。", "polished": "本研究將每位球員視為節點，並在有傳球關係的球員之間建立邊。", "source": "human_polished"}
 {"category": "結果描述", "draft": "結果還蠻明顯的，用我們方法的準確率比 baseline 高了大概八個百分點。", "polished": "實驗結果顯示，本方法之準確度較基準模型提升了約八個百分點。", "source": "human_polished"}
 {"category": "圖表描述", "draft": "從圖三可以看到，那個 attention 的權重基本上都集中在舉球員身上。", "polished": "由圖三可知，注意力權重主要集中於舉球員。", "source": "human_polished"}
 {"category": "討論與限制", "draft": "不過我們這個方法有個問題，就是碰到資料很少的隊伍的時候表現會掉下來。", "polished": "然而，本方法仍有其限制，即在面對資料量較少的球隊時，模型效能會有所下降。", "source": "human_polished"}
@@ -11,8 +11,8 @@
 {"category": "研究問題陳述", "draft": "這個實驗就是想看看人在看複雜畫面的時候，眼睛會不會亂飄。", "polished": "本實驗旨在觀察個體在觀看複雜畫面時，其眼動軌跡是否會無序漂移。", "source": "human_polished"}
 {"category": "結果描述", "draft": "我們發現受試者在壓力比較大的時候，眨眼的次數明顯變多。", "polished": "結果顯示，受試者在承受較高壓力時，眨眼次數有顯著增加的趨勢。", "source": "human_polished"}
 {"category": "Email to advisor", "draft": "老師不好意思，我這邊 reviewer 的意見都回完了，想請你幫我看一下附件。", "polished": "老師您好，我已完成審稿委員意見的答覆，附件為相關資料，再煩請您抽空審閱。", "source": "human_polished"}
-{"category": "Reviewer response", "draft": "reviewer 說我們的 baseline 選得不太對，這點我們有重新做實驗補上去。", "polished": "審稿委員指出本研究之基準模型選擇有待商榷，對此我們已重新進行實驗並補充結果。", "source": "human_polished"}
-{"category": "白話轉學術", "draft": "說真的這個結果我們一開始也沒想到會這樣，還蠻意外的。", "polished": "此實驗結果確實出乎我們最初的預期。", "source": "human_polished"}
+{"category": "Reviewer response", "draft": "reviewer 說我們的 baseline 選得不太對，這點我們有重新做實驗補上去。", "polished": "審稿委員指出本研究之基準模型選擇有待商榷，對此已重新進行實驗並補充結果。", "source": "human_polished"}
+{"category": "白話轉學術", "draft": "說真的這個結果我們一開始也沒想到會這樣，還蠻意外的。", "polished": "此實驗結果確實出乎本研究最初之預期。", "source": "human_polished"}
 {"category": "文獻回顧", "draft": "之前有滿多人研究過排球的戰術分析,不過他們大部分都只看單一球員,沒去看整隊的互動。", "polished": "雖過去已有諸多關於排球戰術分析之研究，但多數文獻僅著眼於單一球員的表現，鮮少探討整體的團隊互動。", "source": "human_polished"}
 {"category": "文獻回顧", "draft": "關於用 deep learning 做運動預測這塊,其實這幾年才開始比較多人在做。", "polished": "運用深度學習進行運動賽事預測之研究，係於近年才逐漸受到學術界關注。", "source": "human_polished"}
 {"category": "假設描述", "draft": "我們猜啦,如果球員之間的默契越好,那模型預測起來應該會越準。", "polished": "本研究假設球員間的團隊默契與模型預測之準確度呈正相關。", "source": "human_polished"}
