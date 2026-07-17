@@ -13,3 +13,18 @@
 {"category": "Email to advisor", "draft": "老師不好意思，我這邊 reviewer 的意見都回完了，想請你幫我看一下附件。", "polished": "老師您好，我已完成審稿委員意見的答覆，附件為相關資料，再煩請您抽空審閱。", "source": "human_polished"}
 {"category": "Reviewer response", "draft": "reviewer 說我們的 baseline 選得不太對，這點我們有重新做實驗補上去。", "polished": "審稿委員指出本研究之基準模型選擇有待商榷，對此我們已重新進行實驗並補充結果。", "source": "human_polished"}
 {"category": "白話轉學術", "draft": "說真的這個結果我們一開始也沒想到會這樣，還蠻意外的。", "polished": "此實驗結果確實出乎我們最初的預期。", "source": "human_polished"}
+{"category": "文獻回顧", "draft": "之前有滿多人研究過排球的戰術分析,不過他們大部分都只看單一球員,沒去看整隊的互動。", "polished": "雖過去已有諸多關於排球戰術分析之研究，但多數文獻僅著眼於單一球員的表現，鮮少探討整體的團隊互動。", "source": "human_polished"}
+{"category": "文獻回顧", "draft": "關於用 deep learning 做運動預測這塊,其實這幾年才開始比較多人在做。", "polished": "運用深度學習進行運動賽事預測之研究，係於近年才逐漸受到學術界關注。", "source": "human_polished"}
+{"category": "假設描述", "draft": "我們猜啦,如果球員之間的默契越好,那模型預測起來應該會越準。", "polished": "本研究假設球員間的團隊默契與模型預測之準確度呈正相關。", "source": "human_polished"}
+{"category": "假設描述", "draft": "我們一開始的假設是,壓力越大的情況下,人的反應時間應該會變慢。", "polished": "本研究之初始假設為：在面臨較高壓力的情境下，個體的反應時間將會延長。", "source": "human_polished"}
+{"category": "結論", "draft": "總結來說,我們這個方法證明了用圖的角度來看球隊互動是有用的。", "polished": "綜上所述，本研究證實，以圖（Graph）的視角來分析球隊互動關係具有其有效性。", "source": "human_polished"}
+{"category": "研究貢獻", "draft": "講白一點,這篇的貢獻就是第一次把球員的生理數據跟比賽表現串在一起看。", "polished": "簡言之，本研究之主要貢獻在於首度結合球員的生理數據與比賽表現，並進行系統性分析。", "source": "human_polished"}
+{"category": "統計結果報告", "draft": "我們算了一下,這兩組的差異是有到顯著的,p 值大概 0.01 左右。", "polished": "經統計分析，兩組之間存在顯著差異（p ≈ 0.01）。", "source": "human_polished"}
+{"category": "統計結果報告", "draft": "那個相關係數算出來大概 0.7,所以我們覺得這兩個變數關係還蠻強的。", "polished": "相關係數約為 0.7，顯示此二變數間具備高度相關性。", "source": "human_polished"}
+{"category": "操作型定義", "draft": "我們講的「有效攻擊」意思就是那球打過去對面接不起來直接得分。", "polished": "本研究將「有效攻擊」操作型定義為：進攻球落入對方半場且對方未能成功防守接起，從而直接得分之攻擊。", "source": "human_polished"}
+{"category": "研究倫理", "draft": "受試者參加之前我們都有給他們簽同意書啦,而且這個實驗有通過 IRB。", "polished": "本研究於實驗開始前皆已取得受試者之知情同意書，且本實驗計畫已通過人體研究倫理審查委員會（IRB）之審查。", "source": "human_polished"}
+{"category": "致謝", "draft": "謝謝實驗室的學長姐幫忙收資料,還有感謝科技部的計畫補助。", "polished": "衷心感謝實驗室同儕在資料收集階段的協助，同時感謝國家科學及技術委員會（原科技部）專題研究計畫之經費資助。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "其實我覺得這個部分算是還蠻重要的一個點,值得我們花多一點篇幅好好討論一下。", "polished": "此部分為本研究之關鍵論點，殊值深入探討。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "基本上大致上來說,我們的實驗結果算是差不多有支持到我們原本的假設這樣。", "polished": "總體而言，本研究之實驗結果大致支持原先設立之研究假設。", "source": "human_polished"}
+{"category": "客觀語氣調整", "draft": "我自己是覺得這個模型的效果還有進步的空間。", "polished": "評估結果顯示，本研究所提之模型在效能表現上仍具備優化與提升之空間。", "source": "human_polished"}
+{"category": "客觀語氣調整", "draft": "我跑了三次實驗,發現結果都蠻穩定的。", "polished": "經重複進行三次獨立實驗，結果均呈現高度穩定性與一致性。", "source": "human_polished"}
