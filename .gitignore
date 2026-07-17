@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.claude/
+
+# checkpoints & large artifacts
+checkpoints/
+outputs/
+runs/
+wandb/
+*.safetensors
+*.bin
+*.pt
+
+# local caches
+.cache/

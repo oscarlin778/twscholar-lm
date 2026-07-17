@@ -1,0 +1,12 @@
+# PyTorch must be installed separately with the CUDA-matched index, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+transformers==5.13.0
+datasets==5.0.0
+peft==0.19.1
+trl==1.7.1
+accelerate==1.14.0
+bitsandbytes==0.49.2
+wandb==0.28.0
+tensorboard==2.21.0
+matplotlib==3.11.0
