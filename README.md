@@ -29,7 +29,7 @@ like it belongs in a journal paper. Built end-to-end on consumer hardware.
 
 - [x] M0 — repo skeleton + GitHub online
 - [x] M1 — dataset v1 (476 examples, provenance-labeled + 50 held-out; see [DATASET_CARD](docs/DATASET_CARD.md))
-- [ ] M2 — training: 0.5B full-FT / 1.5B LoRA / 7B QLoRA (SFT + DPO)
+- [x] M2 — training: 0.5B full-FT / 1.5B LoRA / 7B QLoRA (SFT) + DPO on 7B (final model: 0 script leakage on held-out)
 - [ ] M3 — blind randomized evaluation
 - [ ] M4 — release (HF Hub adapters + dataset + README + demo)
 - [ ] M5 — interview-readiness (whiteboard derivations)
