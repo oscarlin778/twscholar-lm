@@ -1,16 +1,13 @@
 """
-Task 1.3/1.4/1.5: SFTTrainer on Qwen2.5-Instruct, parameterized so the same
-script can run full fine-tuning or LoRA/QLoRA at different scales.
+SFTTrainer on Qwen2.5-Instruct, parameterized so the same script runs full
+fine-tuning or LoRA/QLoRA at different scales (the M2 three-line comparison:
+0.5B full-FT / 1.5B LoRA / 7B QLoRA).
 
-Data: data/processed/sft_train.jsonl (Task 1.2 output — 127 hand-curated
-academic-writing pairs). General-diversity mixing is deferred (see
-scripts/prepare_data.py docstring); this doesn't block pipeline validation,
-the LoRA rank comparison, or the 7B scale-up, only the final published
-model's quality.
+Data: data/processed/sft_train.jsonl (built by scripts/build_training_set.py
+from the provenance-labeled raw sources).
 
 Usage:
-    python scripts/train_sft.py --mode full
-    python scripts/train_sft.py --mode lora --r 8 --alpha 16
+    python scripts/train_sft.py --mode full --model_id Qwen/Qwen2.5-0.5B-Instruct
     python scripts/train_sft.py --mode lora --r 64 --alpha 128
     python scripts/train_sft.py --mode lora --r 64 --alpha 128 \\
         --model_id Qwen/Qwen2.5-7B-Instruct --load_in_4bit --run_name qlora-7b
@@ -20,14 +17,37 @@ import argparse
 import json
 import time
 
+# On Windows, importing torch AFTER matplotlib.pyplot segfaults (OpenMP/MKL
+# DLL load-order conflict) -- torch must come first.
 import torch
 from datasets import load_dataset
 from peft import LoraConfig
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from trl import SFTConfig, SFTTrainer
 
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+
 TRAIN_DATA_PATH = "data/processed/sft_train.jsonl"
 SEED = 42
+
+
+def plot_training_curves(log_history, output_dir):
+    rows = [r for r in log_history if "loss" in r and "step" in r]
+    steps = [r["step"] for r in rows]
+    losses = [r["loss"] for r in rows]
+    accs = [(r["step"], r["mean_token_accuracy"]) for r in rows if "mean_token_accuracy" in r]
+
+    fig, (ax_loss, ax_acc) = plt.subplots(1, 2, figsize=(11, 4))
+    ax_loss.plot(steps, losses, marker="o", color="tab:blue")
+    ax_loss.set_xlabel("step"); ax_loss.set_ylabel("loss"); ax_loss.set_title("SFT training loss"); ax_loss.grid(alpha=0.3)
+    if accs:
+        ax_acc.plot([s for s, _ in accs], [a for _, a in accs], marker="o", color="tab:green")
+    ax_acc.set_xlabel("step"); ax_acc.set_ylabel("mean_token_accuracy"); ax_acc.set_title("SFT token accuracy")
+    ax_acc.set_ylim(0, 1.05); ax_acc.grid(alpha=0.3)
+    fig.tight_layout(); fig.savefig(f"{output_dir}/training_curves.png", dpi=150); plt.close(fig)
 
 
 def parse_args():
@@ -143,6 +163,7 @@ def main():
     elapsed = time.time() - start
     peak_vram_gb = torch.cuda.max_memory_allocated() / 1e9
     trainer.save_model(output_dir)
+    plot_training_curves(trainer.state.log_history, output_dir)
 
     metrics = {
         "run_name": run_name,
