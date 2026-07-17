@@ -1,0 +1,12 @@
+{
+  "run_name": "sft-qlora-7b-epoch1",
+  "mode": "lora",
+  "r": 64,
+  "alpha": 128,
+  "trainable_params": 161480704,
+  "total_params": 7777097216,
+  "trainable_pct": 2.0764,
+  "peak_vram_gb": 10.57,
+  "train_runtime_sec": 123.9,
+  "final_train_loss": 1.4727535406748453
+}

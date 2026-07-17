@@ -32,6 +32,10 @@ like it belongs in a journal paper. Built end-to-end on consumer hardware.
 - [x] M2 — training: 0.5B full-FT / 1.5B LoRA / 7B QLoRA (SFT) + DPO on 7B (final model: 0 script leakage on held-out)
 - [x] M3 — blind randomized evaluation w/ position-swap correction ([report](results/m3_eval_report.md))
 - [ ] M4 — release (HF Hub adapters + dataset + README + demo)
+  - [x] Gradio side-by-side demo (base vs fine-tuned + live purity badge) + input fail-safes
+  - [x] OOD glitch found during live demo testing, investigated, and fixed — see [report](results/m4_ood_glitch_investigation.md). **Production model updated: SFT + DPO both now use 1 epoch** (not just DPO as originally found).
+  - [ ] HF Hub upload (adapters + dataset + model cards)
+  - [ ] Tech-report README (pipeline diagram, full experiment tables, Debugging Alignment chapter)
 - [ ] M5 — interview-readiness (whiteboard derivations)
 
 ## Hardware

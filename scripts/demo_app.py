@@ -20,7 +20,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 import gradio as gr
 
 MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
-DPO_ADAPTER = "outputs/dpo-qlora-7b"
+DPO_ADAPTER = "outputs/dpo-qlora-7b-v2"  # SFT 1 epoch + DPO 1 epoch; see results/m4_ood_glitch_investigation.md
 
 SYSTEM_PROMPT = (
     "你是一位協助使用者潤飾繁體中文學術寫作的助手,回覆時力求精簡、正式,"
@@ -37,6 +37,31 @@ EXAMPLES = [
     "委員覺得我們的統計方法怪怪的,我們有換了一個方法重新分析。",
     "雖然電動車越來越普及,但充電基礎設施還是跟不上。",
 ]
+
+# guardrails: the training data is single sentences, 10-60 chars. Inputs far
+# outside that range or with little CJK content are out-of-distribution and
+# the model degrades (hallucination on 1-char input, off-task on English-only,
+# summarization instead of polishing on very long input -- all observed
+# empirically before adding these checks).
+MIN_LEN = 4
+MAX_LEN = 200
+MIN_CJK_RATIO = 0.4
+
+
+def _is_cjk(ch: str) -> bool:
+    return "一" <= ch <= "鿿"
+
+
+def _validate(draft: str) -> str | None:
+    """Returns a user-facing error message, or None if input is OK to generate."""
+    if len(draft) < MIN_LEN:
+        return f"⚠️ 輸入過短(少於 {MIN_LEN} 字),過短的句子容易讓模型產生不相關的內容,請輸入完整的句子。"
+    if len(draft) > MAX_LEN:
+        return f"⚠️ 輸入過長(超過 {MAX_LEN} 字)。本模型是針對單句/短段落訓練,請拆成較短的句子分別潤飾,以獲得穩定結果。"
+    cjk_ratio = sum(1 for c in draft if _is_cjk(c)) / len(draft)
+    if cjk_ratio < MIN_CJK_RATIO:
+        return "⚠️ 偵測到輸入的中文字元比例偏低。本模型專門訓練於繁體中文學術寫作潤飾,非中文輸入的結果可能不準確或答非所問。"
+    return None
 
 print("Loading model (7B, 4-bit)...")
 tok = AutoTokenizer.from_pretrained(MODEL_ID)
@@ -85,7 +110,21 @@ def polish(draft: str):
     draft = (draft or "").strip()
     if not draft:
         return "", "", "", ""
-    base_out, ft_out = _generate(draft)
+
+    warning = _validate(draft)
+    if warning:
+        return "", warning, "", warning
+
+    try:
+        base_out, ft_out = _generate(draft)
+    except torch.cuda.OutOfMemoryError:
+        torch.cuda.empty_cache()
+        msg = "⚠️ GPU 記憶體不足,請稍後再試或縮短輸入內容。"
+        return "", msg, "", msg
+    except Exception as e:
+        msg = f"⚠️ 生成過程發生錯誤,請稍後再試。({type(e).__name__})"
+        return "", msg, "", msg
+
     return base_out, _badge(base_out, draft), ft_out, _badge(ft_out, draft)
 
 
