@@ -27,8 +27,8 @@ like it belongs in a journal paper. Built end-to-end on consumer hardware.
 
 ## Status (milestones)
 
-- [ ] M0 — repo skeleton + GitHub online
-- [ ] M1 — dataset v1 (800–1,500 pairs with provenance labels)
+- [x] M0 — repo skeleton + GitHub online
+- [x] M1 — dataset v1 (476 examples, provenance-labeled + 50 held-out; see [DATASET_CARD](docs/DATASET_CARD.md))
 - [ ] M2 — training: 0.5B full-FT / 1.5B LoRA / 7B QLoRA (SFT + DPO)
 - [ ] M3 — blind randomized evaluation
 - [ ] M4 — release (HF Hub adapters + dataset + README + demo)
