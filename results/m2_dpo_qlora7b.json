@@ -1,0 +1,13 @@
+{
+  "run_name": "dpo-qlora-7b",
+  "beta": 0.1,
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "sft_adapter_path": "outputs/sft-sft-qlora-7b",
+  "peak_vram_gb": 9.01,
+  "train_runtime_sec": 156.1,
+  "final_loss": 0.049438826739788055,
+  "final_rewards_chosen": -0.021036815519134205,
+  "final_rewards_rejected": -3.338724136352539,
+  "final_rewards_margin": 3.3176873524983725,
+  "final_rewards_accuracy": 1.0
+}

@@ -1,16 +1,16 @@
 """
-Task 2.2: convert the sft-lab academic-writing pairs into DPO preference
-format. chosen = the reviewed polished version; rejected = the original
-draft (a stand-in "failed to polish" response). This is a fast bootstrap,
-not a rich failure-mode set — rejected only covers one failure mode
-(un-polished text), not others like over-verbosity or script leakage
-(see sft-lab Task 1.6 findings). Worth revisiting later.
+Build DPO preference data from the academic-writing pairs (both provenance
+classes). chosen = the polished version; rejected = the original draft (a
+"failed to polish" stand-in). External general-conversation data is excluded
+(no draft/polished structure). rejected covers one failure mode only
+(un-polished text); the dpo-lab investigation documents why richer negatives
+made things worse and why 1 epoch is the fix.
 """
 
 import json
 import random
 
-RAW_DATA_PATH = "data/raw/academic_writing_pairs.jsonl"
+PAIR_SOURCES = ["data/raw/seed_ai_drafted.jsonl", "data/raw/human_polished.jsonl"]
 OUTPUT_PATH = "data/processed/dpo_train.jsonl"
 SEED = 42
 
@@ -47,7 +47,9 @@ def to_dpo_example(pair, rng):
 
 def main():
     rng = random.Random(SEED)
-    pairs = load_raw_pairs(RAW_DATA_PATH)
+    pairs = []
+    for path in PAIR_SOURCES:
+        pairs.extend(load_raw_pairs(path))
 
     examples = [to_dpo_example(pair, rng) for pair in pairs]
     rng.shuffle(examples)
