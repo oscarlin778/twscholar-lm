@@ -1,0 +1,206 @@
+{
+  "c1": "sft_dpo",
+  "c2": "base_zeroshot",
+  "key": {
+    "0": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "1": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "2": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "3": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "4": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "5": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "6": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "7": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "8": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "9": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "10": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "11": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "12": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "13": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "14": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "15": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "16": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "17": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "18": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "19": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "20": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "21": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "22": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "23": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "24": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "25": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "26": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "27": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "28": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "29": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "30": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "31": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "32": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "33": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "34": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "35": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "36": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "37": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "38": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "39": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "40": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "41": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "42": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "43": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "44": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    },
+    "45": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "46": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "47": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "48": {
+      "A": "base_zeroshot",
+      "B": "sft_dpo"
+    },
+    "49": {
+      "A": "sft_dpo",
+      "B": "base_zeroshot"
+    }
+  }
+}

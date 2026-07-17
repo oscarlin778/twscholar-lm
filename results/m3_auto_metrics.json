@@ -1,0 +1,30 @@
+{
+  "base_zeroshot": {
+    "avg_len": 26.7,
+    "len_ratio": 1.26,
+    "simp_hits": 6,
+    "rows_with_simp": 4,
+    "eng_hits": 123
+  },
+  "base_fewshot": {
+    "avg_len": 24.5,
+    "len_ratio": 1.15,
+    "simp_hits": 7,
+    "rows_with_simp": 3,
+    "eng_hits": 33
+  },
+  "sft": {
+    "avg_len": 28.7,
+    "len_ratio": 1.37,
+    "simp_hits": 0,
+    "rows_with_simp": 0,
+    "eng_hits": 47
+  },
+  "sft_dpo": {
+    "avg_len": 29.9,
+    "len_ratio": 1.43,
+    "simp_hits": 1,
+    "rows_with_simp": 1,
+    "eng_hits": 51
+  }
+}
