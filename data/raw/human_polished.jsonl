@@ -28,3 +28,23 @@
 {"category": "精簡有力", "draft": "基本上大致上來說,我們的實驗結果算是差不多有支持到我們原本的假設這樣。", "polished": "總體而言，本研究之實驗結果大致支持原先設立之研究假設。", "source": "human_polished"}
 {"category": "客觀語氣調整", "draft": "我自己是覺得這個模型的效果還有進步的空間。", "polished": "評估結果顯示，本研究所提之模型在效能表現上仍具備優化與提升之空間。", "source": "human_polished"}
 {"category": "客觀語氣調整", "draft": "我跑了三次實驗,發現結果都蠻穩定的。", "polished": "經重複進行三次獨立實驗，結果均呈現高度穩定性與一致性。", "source": "human_polished"}
+{"category": "摘要潤飾", "draft": "這篇研究簡單講就是想做一個可以自動幫忙分析排球比賽的系統。", "polished": "本研究旨在開發一套可自動化分析排球賽事之系統。", "source": "human_polished"}
+{"category": "摘要潤飾", "draft": "我們蒐集了一堆腦造影的資料,然後想看看能不能從裡面找出阿茲海默症的早期徵兆。", "polished": "本研究透過蒐集腦造影數據，旨在評估從中偵測阿茲海默症早期徵兆之可行性。", "source": "human_polished"}
+{"category": "投稿信", "draft": "編輯你好,我們想把這篇投到貴期刊,覺得應該蠻符合你們的主題範圍的。", "polished": "敬啟者：本研究團隊誠摯將本論文投稿至貴期刊，深信本研究範疇與貴期刊之學術焦點高度契合。", "source": "human_polished"}
+{"category": "投稿信", "draft": "這篇稿子是原創的,沒有一稿多投,也沒有在別的地方發表過喔。", "polished": "本論文為原創性研究，未曾發表於其他學術期刊，亦無一稿多投之情事。", "source": "human_polished"}
+{"category": "研究計畫書用語", "draft": "這個計畫預計要花兩年,第一年先收資料,第二年再拿來訓練模型跟分析。", "polished": "本計畫預期執行期程為兩年：首年將著重於資料蒐集，次年則進行模型訓練與深度分析。", "source": "human_polished"}
+{"category": "研究計畫書用語", "draft": "如果這個計畫做得成功,以後應該可以幫教練做即時的戰術決策。", "polished": "本計畫若順利執行，其研究成果將有望協助教練進行即時的戰術決策。", "source": "human_polished"}
+{"category": "方法段落", "draft": "我們用 rs-fMRI 的資料去建腦區之間的功能性連結網路。", "polished": "本研究利用靜息態功能性磁振造影（rs-fMRI）數據，建構不同腦區間的功能性連結網路。", "source": "human_polished"}
+{"category": "方法段落", "draft": "病人的分組是照臨床診斷來分的,分成正常、輕度認知障礙還有失智三組。", "polished": "受試者係依據臨床診斷進行分組，共分為認知功能正常組、輕度認知障礙組及失智症組。", "source": "human_polished"}
+{"category": "專有名詞縮寫", "draft": "我們這邊用的圖注意力網路,後面都簡稱 GAT。", "polished": "本文所採用之圖注意力網路，於後續段落均簡稱為 GAT。", "source": "human_polished"}
+{"category": "專有名詞縮寫", "draft": "這個指標叫做曲線下面積,也就是一般常講的 AUC。", "polished": "此評估指標為接收者操作特徵曲線下面積，以下簡稱為 AUC。", "source": "human_polished"}
+{"category": "結果描述", "draft": "跑出來的結果顯示,加了 attention 機制之後模型抓重點抓得比較準。", "polished": "實驗結果表明，引入注意力機制（attention mechanism）後，模型對關鍵特徵之擷取精準度明顯提升。", "source": "human_polished"}
+{"category": "結果描述", "draft": "我們的模型在測試集上的 F1 score 大概是 0.85 這樣,比之前的方法好一些。", "polished": "本研究所提之模型於測試集之 F1 分數約為 0.85，相較於既有方法表現更佳。", "source": "human_polished"}
+{"category": "討論與限制", "draft": "這個發現告訴我們,老師如果能即時知道學生的狀況,教學效果應該會更好。", "polished": "此研究發現顯示，教師若能即時掌握學生之學習狀態，將有助於提升教學成效。", "source": "human_polished"}
+{"category": "討論與限制", "draft": "不過這個研究只在一個學校做,所以結果能不能推到別的地方還要再看看。", "polished": "然本研究僅於單一學校進行，其結果之泛化能力與推論性仍待進一步驗證。", "source": "human_polished"}
+{"category": "白話轉學術", "draft": "這個問題其實還蠻棘手的,不是那麼容易就能解決。", "polished": "此課題本質上相當棘手，難以輕易解決。", "source": "human_polished"}
+{"category": "白話轉學術", "draft": "我們的方法雖然不是完美,但至少證明了這個方向是可行的。", "polished": "儘管本研究所提之方法仍有改進空間，但已證實此研究路徑之可行性。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "基本上呢,我想要表達的重點其實就是說,資料的品質真的非常非常重要。", "polished": "簡言之，資料品質為決定研究成效之關鍵要素。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "老實講這個實驗我們前前後後大概重跑了不下十次才終於弄出比較像樣的結果。", "polished": "本實驗經歷多次反覆測試與參數調校，方取得具備代表性之研究結果。", "source": "human_polished"}
+{"category": "客觀語氣調整", "draft": "我在分析的時候有注意到一個蠻有趣的現象。", "polished": "分析過程中，本研究觀察到一項值得關注之特異現象。", "source": "human_polished"}
+{"category": "客觀語氣調整", "draft": "我覺得未來還有很多可以繼續深入研究的地方。", "polished": "展望未來，此研究領域仍有諸多方向值得後續深入探討。", "source": "human_polished"}
