@@ -1,3 +1,16 @@
+---
+license: cc-by-nc-4.0
+language:
+  - zh
+task_categories:
+  - text-generation
+tags:
+  - traditional-chinese
+  - academic-writing
+size_categories:
+  - n<1K
+---
+
 # Dataset Card — twscholar-lm training data
 
 ## Summary
