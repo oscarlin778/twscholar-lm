@@ -48,3 +48,152 @@
 {"category": "精簡有力", "draft": "老實講這個實驗我們前前後後大概重跑了不下十次才終於弄出比較像樣的結果。", "polished": "本實驗經歷多次反覆測試與參數調校，方取得具備代表性之研究結果。", "source": "human_polished"}
 {"category": "客觀語氣調整", "draft": "我在分析的時候有注意到一個蠻有趣的現象。", "polished": "分析過程中，本研究觀察到一項值得關注之特異現象。", "source": "human_polished"}
 {"category": "客觀語氣調整", "draft": "我覺得未來還有很多可以繼續深入研究的地方。", "polished": "展望未來，此研究領域仍有諸多方向值得後續深入探討。", "source": "human_polished"}
+{"category": "摘要潤飾", "draft": "這篇論文大概就是想提出一個新方法來讓球隊配置更好一點。", "polished": "本論文旨在提出一種新型方法，以優化球隊之陣容配置與資源分配。", "source": "human_polished"}
+{"category": "摘要潤飾", "draft": "這個研究主要在看不同的訓練方式對運動員表現的影響。", "polished": "本研究主要探討不同訓練模式對運動員競技表現之影響。", "source": "human_polished"}
+{"category": "摘要潤飾", "draft": "簡單說我們就是想用 AI 來幫忙看醫學影像找病灶。", "polished": "本研究旨在運用人工智慧技術輔助醫學影像分析，以期精準偵測病灶位置。", "source": "human_polished"}
+{"category": "摘要潤飾", "draft": "這篇想探討的是社群媒體對青少年心理健康有沒有影響。", "polished": "本文旨在探討社群媒體之使用對青少年心理健康所產生之影響。", "source": "human_polished"}
+{"category": "摘要潤飾", "draft": "我們提出一個框架,可以自動從文字裡面抓出情緒。", "polished": "本研究提出一個自動化文本情感分析（sentiment analysis）框架，可自文本中精準提取情緒特徵。", "source": "human_polished"}
+{"category": "摘要潤飾", "draft": "這個研究是想比較幾種不同的深度學習模型在這個任務上的表現。", "polished": "本研究旨在比較數種不同的深度學習模型在此項特定任務上之效能表現。", "source": "human_polished"}
+{"category": "摘要潤飾", "draft": "本篇主要是要做一個推薦系統,幫使用者找到他們可能喜歡的東西。", "polished": "本文主要致力於開發一套個性化推薦系統，以協助使用者發掘潛在感興趣之標的。", "source": "human_polished"}
+{"category": "引言/研究動機", "draft": "這個問題很重要啦,因為現在越來越多人受到這個困擾。", "polished": "此研究議題極具重要性，因近年來受此病症（或困擾）影響之群體正逐年增加。", "source": "human_polished"}
+{"category": "引言/研究動機", "draft": "現在雖然技術進步很多,但這方面還是有很多沒解決的地方。", "polished": "儘管近年技術已取得長足進步，然而該領域仍存在諸多尚未解決之關鍵瓶頸。", "source": "human_polished"}
+{"category": "引言/研究動機", "draft": "我們會想做這個是因為之前的方法都太耗時間了。", "polished": "本研究之動機源於既有方法在運算上過於耗時，難以滿足即時應用之需求。", "source": "human_polished"}
+{"category": "引言/研究動機", "draft": "隨著資料越來越多,怎麼有效處理這些資料就變成一個大問題。", "polished": "隨著數據量呈現爆炸性成長，如何高效且精準地處理海量資料已成為當前亟待解決之關鍵課題。", "source": "human_polished"}
+{"category": "引言/研究動機", "draft": "大家都知道早期發現很重要,但實際上要早期發現其實很難。", "polished": "儘管學術與臨床界普遍認同早期診斷之重要性，但於實務上進行早期偵測仍面臨極大挑戰。", "source": "human_polished"}
+{"category": "引言/研究動機", "draft": "這個領域這幾年很紅,但其實還有很多基礎的問題沒搞清楚。", "polished": "雖然此研究領域近年蔚為顯學，但關於其核心基礎機制的探討仍顯不足。", "source": "human_polished"}
+{"category": "引言/研究動機", "draft": "我們注意到現有的系統在真實情境下常常表現得沒那麼好。", "polished": "本研究指出，既有系統於實際應用情境中之效能往往大幅受限。", "source": "human_polished"}
+{"category": "引言/研究動機", "draft": "傳統的做法通常需要很多人力,成本很高又容易出錯。", "polished": "傳統方法通常高度依賴人工操作，不僅耗費高昂人力成本，亦容易產生人為疏失。", "source": "human_polished"}
+{"category": "文獻回顧", "draft": "前人有做過類似的東西,但他們用的資料集比較小。", "polished": "雖過去已有學者進行過類似研究，惟其研究所採用之資料集規模相對有限。", "source": "human_polished"}
+{"category": "文獻回顧", "draft": "之前的研究大多集中在英文,中文這塊做的人比較少。", "polished": "既有文獻多聚焦於英文語境之研究，針對中文語料之探討則相對匱乏。", "source": "human_polished"}
+{"category": "文獻回顧", "draft": "有些學者主張用 A 方法,但也有人覺得 B 方法比較好,還沒有定論。", "polished": "學術界對此議題之解決途徑尚未達成共識，部分學者主張採用 A 方法，亦有另一派學者支持 B 方法。", "source": "human_polished"}
+{"category": "文獻回顧", "draft": "這個理論最早是某某人在幾十年前提出來的,後來很多人拿去用。", "polished": "該理論最早由某某於數十年前提出，此後被廣泛應用於諸多後續研究中。", "source": "human_polished"}
+{"category": "文獻回顧", "draft": "雖然已經有一些相關研究,但大部分都沒有考慮到時間的因素。", "polished": "儘管已有若干相關研究，但多數文獻並未納入時間維度進行考量。", "source": "human_polished"}
+{"category": "文獻回顧", "draft": "過去的方法在乾淨的資料上表現很好,但碰到雜訊就不行了。", "polished": "既有方法於無雜訊之理想資料集上表現優異，然而在面對雜訊干擾時，其魯棒性顯著降低。", "source": "human_polished"}
+{"category": "文獻回顧", "draft": "目前大家用的評估標準其實不太一致,這造成比較上的困難。", "polished": "目前文獻中所使用之評估指標尚未統一，致使不同研究間之成效對比面臨困難。", "source": "human_polished"}
+{"category": "方法段落", "draft": "我們先把資料做正規化,然後再丟進模型去訓練。", "polished": "本研究首先將原始資料進行常態化預處理，隨後輸入至模型進行訓練。", "source": "human_polished"}
+{"category": "方法段落", "draft": "模型的架構基本上是一個 encoder 加一個 decoder 這樣。", "polished": "本模型之核心架構係基於編碼器-解碼器（Encoder-Decoder）框架所設計。", "source": "human_polished"}
+{"category": "方法段落", "draft": "訓練的時候我們用 Adam optimizer,learning rate 設 0.001。", "polished": "於模型訓練階段，本研究採用 Adam 優化器，並將初始學習率設定為 0.001。", "source": "human_polished"}
+{"category": "方法段落", "draft": "為了避免 overfitting,我們有加 dropout 還有 early stopping。", "polished": "為了防範模型產生過擬合（overfitting）現象，本研究引入了 Dropout 機制並實施提前終止策略。", "source": "human_polished"}
+{"category": "方法段落", "draft": "資料我們切成訓練、驗證跟測試三份,比例大概是 7:1:2。", "polished": "本研究將資料集劃分為訓練集、驗證集與測試集，其比例設定為 7:1:2。", "source": "human_polished"}
+{"category": "方法段落", "draft": "我們用五折交叉驗證來確認結果的穩定性。", "polished": "本研究採用五折交叉驗證（5-fold cross-validation）以評估並確保實驗結果之穩定性。", "source": "human_polished"}
+{"category": "方法段落", "draft": "特徵的部分我們總共抽了大概二十幾個出來。", "polished": "在特徵工程方面，本研究總計提取了二十餘個關鍵特徵進行分析。", "source": "human_polished"}
+{"category": "方法段落", "draft": "為了公平比較,所有模型都用一樣的資料跟一樣的設定去跑。", "polished": "為確保對比之公正性，所有參與測試之模型均在相同的資料集與超參數設定下進行評估。", "source": "human_polished"}
+{"category": "方法段落", "draft": "我們是在一張 4070 的顯卡上面跑這些實驗的。", "polished": "本研究之所有實驗均於配備 NVIDIA GeForce RTX 4070 圖形處理器之運算平台上執行。", "source": "human_polished"}
+{"category": "結果描述", "draft": "從結果來看,我們的方法明顯比其他幾個好。", "polished": "實驗結果表明，本研究所提之方法明顯優於其他對比基準方法。", "source": "human_polished"}
+{"category": "結果描述", "draft": "隨著資料量變多,模型的表現也跟著變好。", "polished": "實驗顯示，隨著資料量之增加，模型之預測效能亦呈現正向增長趨勢。", "source": "human_polished"}
+{"category": "結果描述", "draft": "加了那個新的模組之後,錯誤率降了不少。", "polished": "引入此新模組後，系統之錯誤率明顯降低。", "source": "human_polished"}
+{"category": "結果描述", "draft": "三個模型裡面,還是我們提的那個效果最好。", "polished": "在三種對比模型中，以本研究所提出之模型展現出最佳之效能。", "source": "human_polished"}
+{"category": "結果描述", "draft": "在小資料的情況下,我們的方法優勢特別明顯。", "polished": "在小樣本的情境下，本研究所提之方法其效能優勢尤為明顯。", "source": "human_polished"}
+{"category": "結果描述", "draft": "有趣的是,模型在某些類別上表現特別差。", "polished": "值得注意的是，該模型於特定類別之預測表現呈現相對低落之現象。", "source": "human_polished"}
+{"category": "結果描述", "draft": "消融實驗顯示每個部件都對最後的結果有貢獻。", "polished": "消融實驗結果證實，各核心模組對於提升最終模型效能均扮演關鍵角色。", "source": "human_polished"}
+{"category": "結果描述", "draft": "整體來說結果符合我們的預期。", "polished": "總體而言，實驗結果與本研究之預期假設高度相符。", "source": "human_polished"}
+{"category": "圖表描述", "draft": "圖一畫的是整個系統的架構。", "polished": "圖一呈現了本系統之整體架構設計。", "source": "human_polished"}
+{"category": "圖表描述", "draft": "表二列出了所有模型的比較結果。", "polished": "表二彙整了各模型之效能對比評估結果。", "source": "human_polished"}
+{"category": "圖表描述", "draft": "從圖四可以看到 loss 隨著訓練慢慢往下掉。", "polished": "由圖四可知，損失值（loss）隨著訓練疊代次數之增加而呈現穩定遞減趨勢。", "source": "human_polished"}
+{"category": "圖表描述", "draft": "這張熱力圖顯示哪些區域被模型關注得比較多。", "polished": "該熱力圖（heatmap）直觀呈現了模型於特徵提取過程中高度關注之關鍵區域。", "source": "human_polished"}
+{"category": "圖表描述", "draft": "圖五是我們模型跟其他方法的 ROC 曲線比較。", "polished": "圖五對比了本模型與其他基準方法之接受者操作特徵（ROC）曲線。", "source": "human_polished"}
+{"category": "圖表描述", "draft": "表三整理了受試者的基本資料。", "polished": "表三詳細彙整了受試者之基本人口統計學特徵。", "source": "human_polished"}
+{"category": "討論與限制", "draft": "我們覺得會有這個結果可能是因為資料分布的關係。", "polished": "本研究推測，此實驗結果可能與原始資料之分布特性具有高度關聯。", "source": "human_polished"}
+{"category": "討論與限制", "draft": "這個方法一個明顯的缺點就是計算量太大。", "polished": "此方法之一大主要限制在於其運算複雜度較高，耗費較大之計算資源。", "source": "human_polished"}
+{"category": "討論與限制", "draft": "我們的研究只用了單一資料集,這是一個限制。", "polished": "本研究之局限性在於僅採用單一資料集進行驗證，或可能影響其結果之泛化性。", "source": "human_polished"}
+{"category": "討論與限制", "draft": "結果跟我們預期的不太一樣,這點值得再深入研究。", "polished": "實驗結果與原先預期產生偏離，此現象殊值未來進一步深入探討其背後機制。", "source": "human_polished"}
+{"category": "討論與限制", "draft": "這個發現跟之前某某人的研究結果是一致的。", "polished": "本研究之發現與某某先前之研究成果具有高度一致性。", "source": "human_polished"}
+{"category": "討論與限制", "draft": "要注意的是,這個結論可能不能直接套到其他情境。", "polished": "必須指出的是，本研究之結論在推廣至其他異質情境時仍需持審慎態度。", "source": "human_polished"}
+{"category": "討論與限制", "draft": "樣本數不夠多可能是造成這個現象的原因之一。", "polished": "樣本規模有限，可能是導致此一實驗現象之潛在原因之一。", "source": "human_polished"}
+{"category": "討論與限制", "draft": "未來我們想試試看在更大規模的資料上驗證這個方法。", "polished": "展望未來，本研究規劃於更大規模之資料集上進一步驗證本方法之有效性與魯棒性。", "source": "human_polished"}
+{"category": "結論", "draft": "總之我們提出的方法在這個任務上是有效的。", "polished": "綜上所述，本研究提出之方法已證實在該項任務上具備良好成效。", "source": "human_polished"}
+{"category": "結論", "draft": "這個研究讓我們更了解這兩個因素之間的關係。", "polished": "本研究深化了對此二因素間內在關聯性之理解。", "source": "human_polished"}
+{"category": "結論", "draft": "我們相信這個發現對後續的研究會有幫助。", "polished": "本研究之發現預期可為該領域之後續研究提供具價值之參考基準。", "source": "human_polished"}
+{"category": "結論", "draft": "簡單講,我們的貢獻主要有三點。", "polished": "歸納而言，本研究之主要學術貢獻可總結為以下三點。", "source": "human_polished"}
+{"category": "結論", "draft": "雖然還有改進空間,但我們已經踏出了重要的一步。", "polished": "儘管本方法仍有進一步優化之空間，但本研究已為該領域奠定了重要之實證基礎。", "source": "human_polished"}
+{"category": "結論", "draft": "希望這個研究可以給這個領域帶來一些新的想法。", "polished": "冀盼本研究之成果能為該學術領域開拓嶄新之研究視角與思路。", "source": "human_polished"}
+{"category": "研究貢獻", "draft": "我們最主要的貢獻就是提出了一個全新的架構。", "polished": "本研究之核心貢獻在於提出了一種創新之系統架構。", "source": "human_polished"}
+{"category": "研究貢獻", "draft": "這是第一次有人用這種方法來處理這個問題。", "polished": "本研究為首創將此方法應用於解決該特定問題之先驅嘗試。", "source": "human_polished"}
+{"category": "研究貢獻", "draft": "我們還做了一個新的資料集,之後會公開讓大家用。", "polished": "此外，本研究建置了一套全新資料集，並計畫於未來公開釋出以供學術界研究使用。", "source": "human_polished"}
+{"category": "研究貢獻", "draft": "除了方法本身,我們也提供了很完整的實驗分析。", "polished": "除方法論之創新外，本研究亦提供了詳盡且系統化之實驗驗證與成效分析。", "source": "human_polished"}
+{"category": "研究貢獻", "draft": "我們的方法不只準,而且速度也比別人快很多。", "polished": "實驗證實，本研究所提之方法不僅在預測精準度上表現優異，且在運算效率上亦大幅超越現有方法。", "source": "human_polished"}
+{"category": "假設描述", "draft": "我們假設模型看到的資料越多,學到的東西就越好。", "polished": "本研究假設：隨著模型訓練數據量之增加，其特徵學習與泛化能力將同步提升。", "source": "human_polished"}
+{"category": "假設描述", "draft": "我們預期女生跟男生在這個任務上的表現會有差異。", "polished": "本研究預期不同性別之受試者在此項任務之表現上存在顯著差異。", "source": "human_polished"}
+{"category": "假設描述", "draft": "我們猜這兩個變數之間應該是負相關。", "polished": "本研究假設此二變數之間呈顯著負相關關係。", "source": "human_polished"}
+{"category": "假設描述", "draft": "如果我們的想法對的話,那 A 組的分數應該會比 B 組高。", "polished": "若上述研究假設成立，則 A 組之評估得分應顯著高於 B 組。", "source": "human_polished"}
+{"category": "假設描述", "draft": "我們假設加入這個機制可以有效改善模型的穩定性。", "polished": "本研究假設引入此機制能有效提升模型在預測輸出時之穩定性。", "source": "human_polished"}
+{"category": "操作型定義", "draft": "我們說的「反應時間」就是從刺激出現到受試者按鍵的那段時間。", "polished": "本研究將「反應時間」操作型定義為：自實驗刺激信號呈現起，至受試者進行按鍵反應之間的時間間隔。", "source": "human_polished"}
+{"category": "操作型定義", "draft": "這裡講的「成功」定義成準確率超過九成。", "polished": "於本研究中，「成功」之評判標準定義為模型預測準確度達到 90% 以上。", "source": "human_polished"}
+{"category": "操作型定義", "draft": "我們把「活躍使用者」定義成一個月內至少登入五次的人。", "polished": "本研究將「活躍使用者」之範疇界定為：於三十日內累計登入次數達五次（含）以上之用戶。", "source": "human_polished"}
+{"category": "操作型定義", "draft": "所謂的「困難樣本」就是那些模型很容易分錯的資料。", "polished": "於本研究中，「困難樣本」係指模型在分類決策時具有高錯誤率之邊界數據。", "source": "human_polished"}
+{"category": "操作型定義", "draft": "這個研究裡的「高風險族群」指的是有家族病史的那些人。", "polished": "本研究將「高風險族群」界定為具備相關家族遺傳病史之受試群體。", "source": "human_polished"}
+{"category": "研究問題陳述", "draft": "我們想知道的是,到底哪些因素會影響模型的表現。", "polished": "本研究旨在探討影響模型預測效能之關鍵決定因素。", "source": "human_polished"}
+{"category": "研究問題陳述", "draft": "這篇論文要回答的問題是,這個方法能不能推廣到其他語言。", "polished": "本論文旨在解答：此研究方法是否具備推廣至其他語系之可行性。", "source": "human_polished"}
+{"category": "研究問題陳述", "draft": "我們好奇的是,不同年齡層的使用者行為會不會不一樣。", "polished": "本研究核心欲探究之課題為：不同年齡層之使用者行為模式是否存在顯著差異。", "source": "human_polished"}
+{"category": "研究問題陳述", "draft": "我們想探討的是,加入更多資料到底有沒有幫助。", "polished": "本研究主要探討增加數據量是否能有效增強模型之效能表現。", "source": "human_polished"}
+{"category": "研究問題陳述", "draft": "這個研究主要想釐清這兩者之間是不是有因果關係。", "polished": "本研究旨在釐清上述二變數之間是否存在確切之因果關係。", "source": "human_polished"}
+{"category": "投稿信", "draft": "編輯您好,附件是我們的稿件,再麻煩您看一下。", "polished": "尊敬的編輯您好：檢附本研究團隊之學術手稿，誠摯提請您與審查委員會審閱。", "source": "human_polished"}
+{"category": "投稿信", "draft": "我們認為這篇研究應該會蠻符合貴期刊讀者的興趣。", "polished": "我們深信本研究之主題與成果，將能引起貴期刊廣大讀者之高度興趣。", "source": "human_polished"}
+{"category": "投稿信", "draft": "所有作者都看過這篇稿子而且都同意投稿。", "polished": "全體作者皆已審閱並認可本手稿之內容，並一致同意將其投稿至貴期刊。", "source": "human_polished"}
+{"category": "投稿信", "draft": "如果需要補充任何資料,請隨時跟我們說。", "polished": "若需補充任何相關資料或進行修正，敬請隨時來信告知。", "source": "human_polished"}
+{"category": "投稿信", "draft": "這份研究我們花了將近兩年的時間才完成。", "polished": "本研究歷時近兩年之深入探討與反覆驗證，方告完成。", "source": "human_polished"}
+{"category": "Reviewer response", "draft": "謝謝審查委員的意見,我們照著把相關的段落都改了。", "polished": "衷心感謝審查委員之建設性意見，本研究已依據指示針對相關段落進行相應之修正。", "source": "human_polished"}
+{"category": "Reviewer response", "draft": "委員問到的這個問題,我們在第四節有補充說明。", "polished": "針對委員所提及之問題，本研究已於正文第四節中增補詳細之說明。", "source": "human_polished"}
+{"category": "Reviewer response", "draft": "關於這一點,我們補做了一個實驗來回應委員的疑慮。", "polished": "關於此項論點，本研究已額外進行補充實驗，以針對委員之疑慮提供更完備之實證說明。", "source": "human_polished"}
+{"category": "Reviewer response", "draft": "委員說我們寫得不夠清楚,這部分我們重新改寫過了。", "polished": "針對委員指出語意未臻清晰之處，本研究已將該段落進行重新改寫，以求論述詳實易懂。", "source": "human_polished"}
+{"category": "Reviewer response", "draft": "我們同意委員的看法,並且已經在文中做了修正。", "polished": "本研究十分認同委員之專業見解，並已於文中相關段落完成修正。", "source": "human_polished"}
+{"category": "Reviewer response", "draft": "這個問題超出了本研究的範圍,但我們在討論裡有稍微提到。", "polished": "儘管此議題已超出本研究之範疇，仍於討論章節中對此進行了初步之探討。", "source": "human_polished"}
+{"category": "Email to advisor", "draft": "老師,我這禮拜進度有點落後,可能要再晚幾天。", "polished": "教授您好：由於部分實驗步驟需重新驗證，本週進度稍有延宕，預計將延遲數日呈報，尚祈見諒。", "source": "human_polished"}
+{"category": "Email to advisor", "draft": "老師,實驗結果出來了,想跟你約個時間討論一下。", "polished": "教授您好：本階段實驗結果已彙整完畢，欲向您預約時間進行討論，不知您何時方便？", "source": "human_polished"}
+{"category": "Email to advisor", "draft": "老師,我改好的版本放在附件,再請你有空看一下。", "polished": "教授您好：檢附修改後之論文初稿於附件，百忙之中再煩請您抽空指導。", "source": "human_polished"}
+{"category": "Email to advisor", "draft": "老師,我對這個分析方法有點疑問,想請教你。", "polished": "教授您好：學生於研讀此數據分析方法時遇到若干疑義，欲向您請教。", "source": "human_polished"}
+{"category": "Email to advisor", "draft": "老師,謝謝你上次的建議,真的幫了我很多。", "polished": "教授您好：十分感謝您上次給予之寶貴建議，對學生在釐清研究思路上面提供了極大幫助。", "source": "human_polished"}
+{"category": "致謝", "draft": "感謝所有參與這個實驗的受試者。", "polished": "衷心感謝所有撥冗參與本實驗之受試者。", "source": "human_polished"}
+{"category": "致謝", "draft": "特別謝謝我的指導教授一路上的指導跟支持。", "polished": "特別向我的指導教授致上最誠摯的謝意，感謝其在研究過程中的悉心指導與全力支持。", "source": "human_polished"}
+{"category": "致謝", "draft": "這個研究受到某某計畫的經費補助,在此表達感謝。", "polished": "本研究承蒙某某計畫之經費資助，特此鳴謝。", "source": "human_polished"}
+{"category": "致謝", "draft": "也謝謝實驗室的夥伴們平常的討論跟幫忙。", "polished": "同時，亦感謝實驗室同儕在日常學術討論中給予之啟發與協助。", "source": "human_polished"}
+{"category": "研究計畫書用語", "draft": "這個計畫的目標是要開發一套實用的診斷輔助工具。", "polished": "本計畫旨在研發一套具備實用性之臨床診斷輔助系統。", "source": "human_polished"}
+{"category": "研究計畫書用語", "draft": "我們預計分三個階段來完成這個計畫。", "polished": "本計畫規劃分三階段逐步推展以達成預期目標。", "source": "human_polished"}
+{"category": "研究計畫書用語", "draft": "這個研究如果成功,對整個產業都會有很大的幫助。", "polished": "本研究若順利完成，預期將為相關產業之技術轉型與發展帶來顯著之效益。", "source": "human_polished"}
+{"category": "研究計畫書用語", "draft": "我們的團隊在這個領域已經有很多年的經驗。", "polished": "本研究團隊深耕該學術與技術領域多年，具備深厚之研發經驗與實績。", "source": "human_polished"}
+{"category": "研究計畫書用語", "draft": "這個計畫需要跨領域的合作才能完成。", "polished": "本計畫之順利遂行，高度仰賴跨學門之跨領域協同合作。", "source": "human_polished"}
+{"category": "研究計畫書用語", "draft": "我們會定期檢視進度,確保計畫如期進行。", "polished": "團隊將建立定期進度稽核機制，以確保計畫各階段任務皆能如期完成。", "source": "human_polished"}
+{"category": "白話轉學術", "draft": "這個結果讓我們有點驚訝。", "polished": "此實驗結果與常理有所偏離，呈現出令人出乎意料之趨勢。", "source": "human_polished"}
+{"category": "白話轉學術", "draft": "說實在的這個問題到現在還沒有很好的解法。", "polished": "坦言之，該學術難題迄今尚未出現臻於完善之解決方案。", "source": "human_polished"}
+{"category": "白話轉學術", "draft": "我們發現這招其實還蠻有用的。", "polished": "實驗結果證實，本研究所提之策略在實務應用上具備良好成效。", "source": "human_polished"}
+{"category": "白話轉學術", "draft": "這兩個東西看起來好像有關係。", "polished": "初步觀察表明，此二變數（或現象）之間存在潛在之關聯性。", "source": "human_polished"}
+{"category": "白話轉學術", "draft": "這個方法用起來還算簡單。", "polished": "本研究所提之方法具備低複雜度與易於部署之特性。", "source": "human_polished"}
+{"category": "白話轉學術", "draft": "老實說我們也不是很確定為什麼會這樣。", "polished": "關於引發此一現象之確切內在機制，仍有待後續研究進一步釐清。", "source": "human_polished"}
+{"category": "白話轉學術", "draft": "這個現象其實蠻常見的。", "polished": "此一現象在相關實務情境中屬普遍存在之常態。", "source": "human_polished"}
+{"category": "白話轉學術", "draft": "我們試了很多方法才找到這個比較好的。", "polished": "經對比多種技術方案後，本研究方篩選出此一表現最佳之配置。", "source": "human_polished"}
+{"category": "白話轉學術", "draft": "這件事情比我們想像中還要複雜。", "polished": "該機制所牽涉之變數極為繁複，其複雜度顯著高於先前之預期。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "基本上來講的話,我覺得這個實驗結果其實是相當不錯的一個成果。", "polished": "總體而言，本實驗取得相當優異之成效。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "就我個人的觀察來看,這個現象似乎是有那麼一點值得我們去注意的。", "polished": "觀察顯示，此一現象值得予以關注。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "說到底,我想表達的意思其實就是這個方法真的是有它的效果在的。", "polished": "本研究旨在證實該方法之實質成效。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "總的來說,經過我們一連串的分析之後,大概可以得出這樣的一個結論。", "polished": "綜上分析，可歸納出以下結論。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "其實講真的,這個部分我覺得還是有需要再多做一點補充說明會比較好。", "polished": "此部分仍有必要進行進一步之增補說明。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "我認為這個因素很有可能就是導致整個實驗失敗的最主要的一個原因。", "polished": "本研究推測，該因素可能為導致實驗未達預期效能之關鍵主因。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "在某種程度上來說,我們的假設算是得到了一定程度上的驗證。", "polished": "本研究假設在此實驗中得到了實證支持。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "這個地方我想要特別強調一下它的重要性真的是不容小覷的。", "polished": "此環節之重要性不容忽視，在此予以特別強調。", "source": "human_polished"}
+{"category": "精簡有力", "draft": "大致上我們可以說,這個模型的表現基本上是符合我們的期待的。", "polished": "概括而言，該模型之效能表現符合本研究之預期。", "source": "human_polished"}
+{"category": "客觀語氣調整", "draft": "我發現這個模型在某些狀況下會出錯。", "polished": "實驗觀察顯示，該模型於特定邊界條件下仍存在分類偏誤（或錯誤）。", "source": "human_polished"}
+{"category": "客觀語氣調整", "draft": "我認為造成這個結果的原因是資料不平衡。", "polished": "本研究推測，導致此一結果之主因在於資料集存在類別不平衡之問題。", "source": "human_polished"}
+{"category": "客觀語氣調整", "draft": "我在實驗中觀察到準確率有波動。", "polished": "於實驗過程中，觀察到模型預測準確度呈現波動現象。", "source": "human_polished"}
+{"category": "客觀語氣調整", "draft": "我覺得這個方法應該還可以再優化。", "polished": "評估指出，此研究方法仍具備進一步優化之空間。", "source": "human_polished"}
+{"category": "客觀語氣調整", "draft": "我把資料清理過後重新跑了一次。", "polished": "於完成資料清洗與預處理後，本研究重新執行了實驗流程。", "source": "human_polished"}
+{"category": "客觀語氣調整", "draft": "我推測這可能跟參數設定有關係。", "polished": "據推測，此現象可能與超參數之設定高度相關。", "source": "human_polished"}
+{"category": "客觀語氣調整", "draft": "我測試了好幾組不同的超參數。", "polished": "本研究針對多組不同之超參數組合進行了對比測試。", "source": "human_polished"}
+{"category": "專有名詞縮寫", "draft": "我們用了卷積神經網路,也就是 CNN。", "polished": "本研究採用卷積神經網路（Convolutional Neural Network, CNN）進行分析。", "source": "human_polished"}
+{"category": "專有名詞縮寫", "draft": "這個任務叫做命名實體辨識,簡稱 NER。", "polished": "此項任務為命名實體辨識（Named Entity Recognition），以下簡稱為 NER。", "source": "human_polished"}
+{"category": "專有名詞縮寫", "draft": "我們用自然語言處理的技術,就是常說的 NLP。", "polished": "本研究運用自然語言處理（Natural Language Processing, NLP）技術進行文本特徵提取。", "source": "human_polished"}
+{"category": "專有名詞縮寫", "draft": "這個指標是平均絕對誤差,簡稱 MAE。", "polished": "本研究採用平均絕對誤差（Mean Absolute Error, MAE）作為效能評估指標。", "source": "human_polished"}
+{"category": "專有名詞縮寫", "draft": "我們採用長短期記憶網路,也就是 LSTM。", "polished": "本研究採用長短期記憶網路（Long Short-Term Memory, LSTM）以處理序列資料。", "source": "human_polished"}
+{"category": "統計結果報告", "draft": "我們做了 t 檢定,發現兩組差異達到顯著。", "polished": "經獨立樣本 t 檢定分析，結果顯示兩組之間存在顯著差異。", "source": "human_polished"}
+{"category": "統計結果報告", "draft": "這個模型的準確率是 92%,召回率大概 88%。", "polished": "實驗結果顯示，該模型之準確度為 92%，召回率約為 88%。", "source": "human_polished"}
+{"category": "統計結果報告", "draft": "變異數分析的結果顯示三組之間有顯著差異。", "polished": "單因子變異數分析（ANOVA）結果指出，三組樣本之間存在顯著統計學差異。", "source": "human_polished"}
+{"category": "統計結果報告", "draft": "我們算了信賴區間,95% 的區間大概落在這個範圍。", "polished": "經計算，其 95% 信賴區間（Confidence Interval, CI）落於此特定範圍。", "source": "human_polished"}
+{"category": "統計結果報告", "draft": "效果量算出來是中等程度。", "polished": "統計分析顯示，該實驗處理之效果量達中度水準。", "source": "human_polished"}
+{"category": "統計結果報告", "draft": "迴歸分析顯示這個變數可以解釋大概六成的變異。", "polished": "迴歸分析結果表明，該自變數能解釋因變數約 60% 之變異量。", "source": "human_polished"}
+{"category": "統計結果報告", "draft": "兩個評分者之間的一致性用 kappa 算出來蠻高的。", "polished": "經計算，兩位評分者之間的一致性係數（Cohen's kappa）呈現高度一致性。", "source": "human_polished"}
+{"category": "研究倫理", "draft": "這個研究經過學校倫理委員會的核准。", "polished": "本研究計畫已正式獲得本校學術研究倫理委員會之核准。", "source": "human_polished"}
+{"category": "研究倫理", "draft": "我們保證所有受試者的資料都會匿名處理。", "polished": "本研究承諾對所有受試者之個人資訊與實驗數據進行嚴格之去識別化與匿名化處理。", "source": "human_polished"}
+{"category": "研究倫理", "draft": "參加者都是自願的,而且隨時可以退出。", "polished": "所有受試者均基於自願原則參與本研究，且保有隨時無條件退出實驗之權利。", "source": "human_polished"}
+{"category": "研究倫理", "draft": "我們有清楚告知受試者這個實驗的目的跟流程。", "polished": "本研究於實驗前已向受試者詳盡說明實驗宗旨、具體流程及相關潛在風險。", "source": "human_polished"}
+{"category": "綜合跨領域", "draft": "這個系統可以即時監測病人的生理訊號並發出警報。", "polished": "本系統具備即時監測病人生理訊號之功能，並能在異常狀態發生時發出自動警報。", "source": "human_polished"}
+{"category": "綜合跨領域", "draft": "我們的演算法在處理大規模資料的時候效率特別高。", "polished": "實驗證實，本研究所提之演算法在處理大規模資料集時展現出優異之時間與空間效率。", "source": "human_polished"}
+{"category": "綜合跨領域", "draft": "這個工具讓沒有程式背景的人也能輕鬆做資料分析。", "polished": "該分析工具大幅降低了技術門檻，使無程式設計背景之使用者亦能高效執行資料分析任務。", "source": "human_polished"}
