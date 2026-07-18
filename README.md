@@ -143,7 +143,6 @@ generation, one weight copy) 6.5GB.
 - [x] M3 — blind randomized evaluation w/ position-swap correction
 - [x] M4 — demo + production model finalized
   - [ ] HF Hub upload (blocked on a write-scoped token; everything staged — see `scripts/upload_to_hub.py`)
-- [ ] M5 — interview-readiness
 
 ## License
 
