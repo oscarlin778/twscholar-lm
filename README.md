@@ -69,6 +69,8 @@ python scripts/demo_app.py   # side-by-side demo at http://127.0.0.1:7860
 (TaiwanChat) subset. The other two classes alone would be freely
 relicensable — see the dataset card.
 
+📦 On the Hub: [dataset](https://huggingface.co/datasets/Yoda6131027/twscholar-lm-dataset)
+
 ## Experiments
 
 ### Scale comparison (M2): 0.5B full-FT / 1.5B LoRA / 7B QLoRA
@@ -128,6 +130,14 @@ script purity) that prompting doesn't. Full report:
 live Traditional-Chinese purity badge on each output. One 4-bit weight
 copy serves both columns (`disable_adapter()` toggles between them,
 ~6.5GB peak VRAM).
+
+## Models
+
+| Adapter | HF Hub |
+|---|---|
+| SFT+DPO (recommended, final) | [twscholar-lm-dpo-7b-final](https://huggingface.co/Yoda6131027/twscholar-lm-dpo-7b-final) |
+| SFT only, 7B | [twscholar-lm-sft-7b-qlora-r64](https://huggingface.co/Yoda6131027/twscholar-lm-sft-7b-qlora-r64) |
+| SFT only, 1.5B (scale comparison) | [twscholar-lm-sft-1.5b-lora-r64](https://huggingface.co/Yoda6131027/twscholar-lm-sft-1.5b-lora-r64) |
 
 ## Hardware
 
