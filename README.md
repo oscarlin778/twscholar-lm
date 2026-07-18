@@ -135,14 +135,6 @@ Single NVIDIA RTX 4070 (12GB VRAM, WDDM). Measured footprints: 7B 4-bit
 inference 5.6GB · 7B QLoRA SFT 10.57GB · 7B QLoRA DPO 9.01GB · demo (dual
 generation, one weight copy) 6.5GB.
 
-## Status
-
-- [x] M0 — repo skeleton + GitHub online
-- [x] M1 — dataset v1 (476 examples, provenance-labeled + 50 held-out)
-- [x] M2 — training: 0.5B full-FT / 1.5B LoRA / 7B QLoRA (SFT) + DPO
-- [x] M3 — blind randomized evaluation w/ position-swap correction
-- [x] M4 — demo + production model finalized
-  - [ ] HF Hub upload (blocked on a write-scoped token; everything staged — see `scripts/upload_to_hub.py`)
 
 ## License
 
